@@ -1,0 +1,92 @@
+html{
+  background-image: url("../img/milky.jpg") ;
+   background-repeat:no-repeat
+}
+body {
+    background-color: #4F5051;
+    padding: 8px;
+     opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+h2 a {
+    color: white;
+    text-align: right;
+}
+a:link, a:visited {
+    background-color: #4F5051;
+    color: white;
+    padding: 4px 9px;
+    text-align: justify; 
+    text-decoration: none;
+    display: inherit;
+    }
+a:hover, a:active {
+    background-color: #EA7E0B;
+}
+p {
+    font-family: verdana, cursive, sans-serif ;
+    font-size: 16px;
+}
+div.alert{
+	   text-align: center;
+    background-color: #4F5051;
+    display: block;
+    font-family: cursive, sans-serif, fantasy;
+    color: #07EF00;
+    font-size: smaller;
+}
+div
+ {
+	background-image: linear-gradient(-90deg, #558939, #278C8C);
+ color: #07F747;
+	margin-left: auto;
+	margin-right: 0%;
+	display: block;
+}
+table#corpo {
+    padding-left: 1px;
+    border-spacing: 1px;
+    margin-bottom: auto;
+    text-indent: inherit;
+     }
+tr{
+    color: #0D2626;
+    font-size: large;
+}
+td{
+    font-size: 16px;
+    color: #171451;
+}
+th{
+     color: #05A2AD;
+     background-color: #444444;
+}
+label {
+    cursor: default;
+}
+/* -- novo complemento ---*/ 
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #00BC25;
+}

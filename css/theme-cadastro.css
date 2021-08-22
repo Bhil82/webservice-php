@@ -1,0 +1,186 @@
+html{
+   background-image: url("../img/milky.jpg") ; 
+   background-repeat:no-repeat;
+    /* 8background-color: #278C8C;*/
+}
+
+body {
+    background-color: #101111;
+    padding: 8px;
+    opacity: 0.9;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+a:link, a:visited {
+    background-color: #4F5051;
+    color: white;
+    padding: 4px 9px;
+    text-align: justify; 
+    text-decoration: none;
+    display: initial;
+    border-bottom: groove;
+}
+
+a:hover, a:active {
+    background-color: #EA7E0B;
+    display: initial;  
+}
+p {
+    font-family: verdana, cursive, sans-serif ;
+    font-size: 16px;
+}
+div {
+   
+   background-image: linear-gradient(-90deg, #878484, #278C8C);
+   color: white;
+  margin-left: auto;
+  margin-right:auto;
+  padding-left: 36%; 
+  box-sizing: border-box;
+  padding-top: 2%; 
+  padding-bottom: 1%;
+   border-radius: 12px;
+   width: auto;
+   height: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: left;
+}
+div.alert{
+  background-color: #4F5051;
+    font-family: cursive, sans-serif, fantasy;
+    color: #F27D00;
+    font-size: 18px;
+}
+table {
+    direction: inherit;
+    padding-left: 1px;
+    border-spacing: 1px;
+    margin-bottom: auto;
+    padding-bottom: 0%;
+        }
+tr{
+    color: #0D2626;
+    font-size: large;
+    
+}
+td{
+    font-size: 16px;
+    color: #171451;
+    
+}
+th{
+     color: #05A2AD;
+     background-color: #444444;
+}
+label {
+    cursor: default;
+    font-size: 18px;
+}
+  input[type=password]
+   {
+    width: 65%;
+    padding: 1px 2px 3px 2px;
+    margin: auto;
+    box-sizing: padding-box;
+    border: 1px solid #5E5555;
+    border-radius: 12px;
+     }
+    input[type=text]:focus {
+    background-color: #848483;
+}
+input{
+    background-color: #FFFFFF;
+    display: initial;
+    box-shadow: 3px 2px 9px #6B77D6;
+
+    }
+   input[type=text]
+   {
+    width: 65%;
+    padding: 1px 2px 3px 2px;
+    margin: auto;
+    box-sizing: padding-box;
+    border: 1px solid #5E5555;
+    border-radius: 12px;
+     }
+    input[type=text]:focus {
+    background-color: #848483;
+}
+select
+{
+    width: 28%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+form{
+    background-color: #0BC1A6;
+    box-shadow: 3px 6px 9px #D0E2E5;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 18px;
+    border-radius: 12px;
+   /* opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    padding-bottom: 1px;
+}
+button#sumit{
+    color: #057739;
+    flex-basis: fill;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 140px;      
+    border-radius: 2px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+}
+button#sumit {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+button#sumit:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+button#reset{
+  color: #A53708;
+  font-family: sans-serif;
+  text-decoration: none;
+  width: 140px;
+  border-radius: 2px;
+  border-radius: 4px;
+  background-color: #48119B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: inherit;
+ }
+ button#reset {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button#reset:hover {
+    backgroundcolor: #4CAF50; /* Green */
+    color: white;
+}    
